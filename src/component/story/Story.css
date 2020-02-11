@@ -1,0 +1,14 @@
+.row-story{
+    flex-wrap: nowrap;
+}
+
+.col-story{
+    padding: 0;
+}
+
+.col-centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

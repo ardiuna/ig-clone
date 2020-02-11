@@ -1,10 +1,55 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.header{
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .1);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Nav-brand-logo {
+  display: inline-block;
+  background-position: 0px 0px;
+  background-image: url(assets/sprite.png);
+  background-size: 332px 259px;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 144px;
+  text-indent: -1000%;
+  margin-top: 15px;
+}
+
+.row-story{
+  flex-wrap: nowrap;
+}
+
+.react-photo-gallery--gallery div {
+  flex-flow: nowrap !important;
+}
+
+.jumbotron {
+  padding: 8px 16px;
+  vertical-align: middle;
+  margin-bottom: 0;
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 @media (prefers-reduced-motion: no-preference) {
